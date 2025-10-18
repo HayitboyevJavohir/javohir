@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #fff;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .header h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .intro-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .role {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  blockquote {
+    border-left: 4px solid #333;
+    padding-left: 15px;
+    color: #555;
+    font-style: italic;
+  }
+  
+  .intro-image img {
+    width: 120px;
+    height: auto;
+  }
+  
+  hr {
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+  
+  .featured-work h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .work-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .work-item {
+    flex: 1 1 45%;
+    background: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .work-item img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .work-item p {
+    font-weight: bold;
+  }
+  
